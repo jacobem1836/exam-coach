@@ -19,7 +19,7 @@ It works with any AI assistant that can read and write files (Claude Code, Codex
 **Claude Code:** copy the folder into your skills directory, then say "help me study for my exam".
 
 ```
-git clone https://github.com/<you>/exam-coach ~/.claude/skills/exam-coach
+git clone https://github.com/jacobem1836/exam-coach ~/.claude/skills/exam-coach
 ```
 
 **Codex, Cursor, Gemini CLI, and others:** put `SKILL.md` in your study folder and add a line to that folder's `AGENTS.md` (or `GEMINI.md`, or your rules file): `Follow SKILL.md for exam prep.`
